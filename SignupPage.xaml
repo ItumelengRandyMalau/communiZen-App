@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zenfull.SignupPage"
+             Title="SignupPage">
+
+
+    <Grid BackgroundColor="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <!-- blue Circle design and user icon -->
+        <StackLayout>
+            <Image Source="bluel.png" Margin="-170 ,0 ,0 ,0"/>
+            <Image Source="user.png" Margin="0 ,-110 ,0 ,0"/>
+        </StackLayout>
+
+        <Grid RowSpacing="5" Grid.Row="1" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+        </Grid>
+
+        <StackLayout>
+
+        </StackLayout>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,74 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:Zenfull.Controls"
+             xmlns:local="clr-namespace:Zenfull.Behaviors"
+             xmlns:viewmodel="clr-namespace:Zenfull.ViewModel"
+             x:Class="Zenfull.MainPage"
+             Title="Main Page">
+    <ContentPage.BindingContext>
+        <viewmodel:MainPageViewModel />
+    </ContentPage.BindingContext>
+    <Grid BackgroundColor="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="220"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <Image Source="heroe.png" HeightRequest="500" WidthRequest="420" Margin="-2,-108,0,0"/>
+            <Image Source="herologo.png" HeightRequest="350" WidthRequest="150" Margin="0,-480,0,0"/>
+        </StackLayout>
+        <Grid RowSpacing="5" Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+
+            <!-- Replace your existing Grid in Row 1 with: -->
+            <Grid Grid.Row="1">
+                <controls:CustomCarouselView Images="{Binding CarouselImages}" 
+                                Margin="0,-20,0,0"/>
+            </Grid>
+
+            <!-- List of recommended mental health  -->
+
+            <Grid Grid.Row="2">
+                <Frame WidthRequest="390" HeightRequest="138" Margin="0,250,0,0" Padding="0" BorderColor="Transparent">
+                    <ScrollView Orientation="Horizontal" Padding="0">
+                        <StackLayout Orientation="Horizontal" Padding="0" Margin="0">
+                         
+                            <Frame WidthRequest="150" HeightRequest="135" Margin="0" Padding="0"/>
+                            <Frame WidthRequest="150" HeightRequest="135" Margin="10" Padding="0"/>
+                            
+                        </StackLayout>
+                    </ScrollView>
+                </Frame>
+            </Grid>
+
+            <!-- Tabbar -->
+
+            <Grid Grid.Row="2">
+                <Frame WidthRequest="790" HeightRequest="250" Margin="0,650,0,0" Padding="0" BorderColor="Transparent">
+             
+                        <StackLayout Orientation="Horizontal" Padding="0" Margin="0">
+                         
+                          <Image Source="tabbackground.png" Margin="185,60 ,0,0" WidthRequest="420" HeightRequest="200"/>
+                          
+                        </StackLayout>
+             
+                </Frame>
+            </Grid>
+
+            
+            
+              
+            
+        </Grid>
+    </Grid>
+</ContentPage>

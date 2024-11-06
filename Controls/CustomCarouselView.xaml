@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Zenfull.Controls.CustomCarouselView">
+    <Grid>
+        <Frame WidthRequest="420" 
+               HeightRequest="160" 
+               Padding="0" 
+               BorderColor="Transparent" 
+               HorizontalOptions="Start">
+
+            <ScrollView x:Name="ScrollContainer" 
+                       Orientation="Horizontal" 
+                       HorizontalScrollBarVisibility="Never"
+                       Padding="-3">
+                <StackLayout x:Name="ImageContainer" 
+                           Orientation="Horizontal" 
+                           Padding="7" 
+                           Margin="0"
+                           Spacing="5"/>
+            </ScrollView>
+        </Frame>
+    </Grid>
+</ContentView>
