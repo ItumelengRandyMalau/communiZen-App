@@ -1,13 +1,11 @@
 ﻿using Zenfull.View;
 namespace Zenfull;
 
-    public partial class App : Application
+public partial class App : Application
+{
+    public App()
     {
-        public App()
-        {
-            InitializeComponent();
-     
-
-        }
+        InitializeComponent();
+        MainPage = new LoginPage();
     }
 }
