@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Zenfull")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+99bbcf56677d32c271beb8b004081b71769ccd9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+960477722e880897d076e63b12f40035de53708e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Zenfull")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Zenfull")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

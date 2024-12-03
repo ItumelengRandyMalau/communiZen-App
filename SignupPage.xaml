@@ -30,8 +30,8 @@
             </Grid.RowDefinitions>
         </Grid>
 
-        <StackLayout>
-
+        <StackLayout Padding="20">
+	
         </StackLayout>
 
     </Grid>

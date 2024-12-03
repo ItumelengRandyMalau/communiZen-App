@@ -12,77 +12,79 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Zenfull
-build_property.ProjectDir = C:\Users\User\OneDrive\My projects\Zenfull\
+build_property.ProjectDir = C:\Users\User\OneDrive\Desktop\communiZen-App\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/User/OneDrive/My projects/Zenfull/App.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/AppShell.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/Controls/CustomCarouselView.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/Controls/CustomCarouselView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.Controls.CustomCarouselView.xaml
 build_metadata.AdditionalFiles.TargetPath = Controls\CustomCarouselView.xaml
 build_metadata.AdditionalFiles.RelativePath = Controls\CustomCarouselView.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/LoginPage.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/MainPage.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/Resources/Styles/Colors.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/Resources/Styles/Styles.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/SignupPage.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/SignupPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.SignupPage.xaml
 build_metadata.AdditionalFiles.TargetPath = SignupPage.xaml
 build_metadata.AdditionalFiles.RelativePath = SignupPage.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/View/Bookings.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/View/Bookings.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.View.Bookings.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Bookings.xaml
 build_metadata.AdditionalFiles.RelativePath = View\Bookings.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/View/ChatBot.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/View/ChatBot.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.View.ChatBot.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ChatBot.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ChatBot.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/View/ChatPage.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/View/ChatPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.View.ChatPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ChatPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ChatPage.xaml
 
-[C:/Users/User/OneDrive/My projects/Zenfull/View/Educate.xaml]
+[C:/Users/User/OneDrive/Desktop/communiZen-App/View/Educate.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Zenfull.View.Educate.xaml
 build_metadata.AdditionalFiles.TargetPath = View\Educate.xaml
