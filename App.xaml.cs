@@ -1,7 +1,6 @@
 ﻿using Zenfull.View;
+namespace Zenfull;
 
-namespace Zenfull
-{
     public partial class App : Application
     {
         public App()
@@ -9,7 +8,6 @@ namespace Zenfull
             InitializeComponent();
      
 
-            MainPage = new MainPage();
         }
     }
 }
